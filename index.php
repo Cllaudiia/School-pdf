@@ -1,7 +1,7 @@
 <?php
 session_start();
-$voornaam =$_GET['fname'];
-$achternaam =$_GET['lname'];
+$voornaam ="Test2";
+$achternaam ="Test";
 require('fpdf/fpdf.php');
 
 class PDF extends FPDF {
